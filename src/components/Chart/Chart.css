@@ -1,0 +1,10 @@
+.chart{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 2px;
+}
+
+.chart-title{
+    margin-bottom: 20px;
+}
