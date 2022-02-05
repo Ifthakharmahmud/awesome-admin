@@ -1,0 +1,61 @@
+/* Small Widget CSS   */
+.widget-small{
+    flex:1;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+}
+
+.widget-small-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widget-small-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.widget-small-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget-small-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.widget-sm-user{
+    display: flex;
+    flex-direction: column;
+}
+.widget-sm-username{
+    font-weight: 600;
+
+}
+
+.widget-sm-user-title{
+    font-weight: 300;
+
+}
+
+.widget-sm-button{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widget-sm-icon{
+    font-size: 15px;
+    margin-right: 5px;
+
+}
