@@ -55,3 +55,15 @@ export const userData = [
       
     },
   ];
+
+
+
+
+ export const userRows = [
+    { id: 1, username: 'Jon Snow', avatar: "./img/user2.jpg", email: "jonshow@gmail.com", status:"active", transection:"$120" },
+    { id: 2, username: 'Jaxson', avatar: "./img/user2.jpg", email: "jaxson@gmail.com", status:"active", transection:"$120" },
+    { id: 3, username: 'Leonardo', avatar: "./img/user2.jpg", email: "leo@gmail.com", status:"active", transection:"$120" },
+    { id: 4, username: 'Dominic', avatar: "./img/user2.jpg", email: "dom@gmail.com", status:"active", transection:"$120" },
+    { id: 5, username: 'Bennett', avatar: "./img/user2.jpg", email: "benn@gmail.com", status:"active", transection:"$120" },
+    
+  ];
