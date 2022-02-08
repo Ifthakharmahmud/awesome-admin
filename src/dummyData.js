@@ -67,3 +67,14 @@ export const userData = [
     { id: 5, username: 'Bennett', avatar: "./img/user2.jpg", email: "benn@gmail.com", status:"active", transection:"$120" },
     
   ];
+
+
+
+ export const productRows = [
+    { id: 1, name: 'Apple Airpods', img: "./img/products/Apple-AirPods.jpg", stock: 125, status:"Active", price:"$1200" },
+    { id: 2, name: 'Mi Repeater', img: "./img/products/repeater.jpeg", stock: 125, status:"Active", price:"$20" },
+    { id: 3, name: 'Ring Light', img: "./img/products/ringlight.jpg", stock: 125, status:"Active", price:"$50" },
+    { id: 4, name: 'One Plus 9', img: "./img/products/OnePlus-9.jpg", stock: 125, status:"Active", price:"$900" },
+    { id: 5, name: 'Microphone', img: "./img/products/microphone.jpg", stock: 125, status:"Active", price:"$120" },
+    
+  ];
