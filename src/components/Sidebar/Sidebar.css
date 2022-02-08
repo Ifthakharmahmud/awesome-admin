@@ -42,3 +42,9 @@
     margin-right: 5px;
     font-size: 20px !important;
 }
+
+.sidebar-menu a{
+    text-decoration: none;
+    color:#555 ;
+
+}

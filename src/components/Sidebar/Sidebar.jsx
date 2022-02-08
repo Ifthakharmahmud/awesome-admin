@@ -11,6 +11,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import CommentIcon from '@mui/icons-material/Comment';
 import SendIcon from '@mui/icons-material/Send';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
@@ -21,10 +22,12 @@ const Sidebar = () => {
                     <div className="sidebar-menu">
                         <h3 className="sidebar-title">Dashboard</h3>
                         <ul className="sidebar-list">
-                            <li className="sidebar-list-item active">
-                                <LineStyleIcon className="sidebar-icon" />
-                                Home
-                            </li>
+                            <Link to="/">
+                                <li className="sidebar-list-item active">
+                                    <LineStyleIcon className="sidebar-icon" />
+                                    Home
+                                </li>
+                            </Link>
                             <li className="sidebar-list-item">
                                 <TimelineIcon className="sidebar-icon" />
                                 Analytics
@@ -40,10 +43,12 @@ const Sidebar = () => {
                     <div className="sidebar-menu">
                         <h3 className="sidebar-title">Quick Menu</h3>
                         <ul className="sidebar-list">
+                            <Link to="/users">
                             <li className="sidebar-list-item active">
                                 <PersonOutlineIcon className="sidebar-icon" />
                                 Users
                             </li>
+                            </Link>
                             <li className="sidebar-list-item">
                                 <InventoryIcon className="sidebar-icon" />
                                 Products

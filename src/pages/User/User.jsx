@@ -5,6 +5,7 @@ import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import { Link } from "react-router-dom";
 const User = () => {
     return (
         <>
@@ -12,7 +13,10 @@ const User = () => {
             <div className="user">
                 <div className="user-title-container">
                     <h1 className="user-title">Edit User</h1>
-                    <button className="user-add-button">Create User</button>
+                    <Link to="/newUser">
+                        <button className="user-add-button">Create User</button>
+                    </Link>
+                    
                 </div>
 
                 <div className="userContainer">
