@@ -12,6 +12,8 @@ import CommentIcon from '@mui/icons-material/Comment';
 import SendIcon from '@mui/icons-material/Send';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import { Link } from 'react-router-dom';
+import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
+import AddBusinessIcon from '@mui/icons-material/AddBusiness';
 
 const Sidebar = () => {
     return (
@@ -28,15 +30,7 @@ const Sidebar = () => {
                                     Home
                                 </li>
                             </Link>
-                            <li className="sidebar-list-item">
-                                <TimelineIcon className="sidebar-icon" />
-                                Analytics
-                            </li>
-
-                            <li className="sidebar-list-item">
-                                <TrendingUpIcon className="sidebar-icon" />
-                                Sales
-                            </li>
+                          
                         </ul>
                     </div>
 
@@ -50,59 +44,63 @@ const Sidebar = () => {
                             </li>
                             </Link>
 
-                            <Link to="/products">
-                                <li className="sidebar-list-item">
+                            <Link to="/newUser">
+                            <li className="sidebar-list-item ">
+                                <PersonAddAltIcon className="sidebar-icon" />
+                                Add New User
+                            </li>
+                            </Link>
+
+                            
+                        </ul>
+                    </div>
+
+                    <div className="sidebar-menu">
+                        <h3 className="sidebar-title">Products</h3>
+                        <ul className="sidebar-list">
+                            
+
+                        <Link to="/products">
+                                <li className="sidebar-list-item active">
                                     <InventoryIcon className="sidebar-icon" />
                                     Products
                                 </li>
                             </Link>
 
-                            <li className="sidebar-list-item">
-                                <AttachMoneyIcon className="sidebar-icon" />
-                                Transactions
-                            </li>
-                            <li className="sidebar-list-item">
-                                <AnalyticsIcon className="sidebar-icon" />
-                                Reports
-                            </li>
-                        </ul>
-                    </div>
+                            <Link to="/newproduct">
+                                <li className="sidebar-list-item">
+                                    <AddBusinessIcon className="sidebar-icon" />
+                                    Add New Product
+                                </li>
+                            </Link>
 
-                    <div className="sidebar-menu">
-                        <h3 className="sidebar-title">Notifications</h3>
-                        <ul className="sidebar-list">
-                            <li className="sidebar-list-item active">
-                                <MailOutlineIcon className="sidebar-icon" />
-                                Mail
-                            </li>
-                            <li className="sidebar-list-item">
-                                <CommentIcon className="sidebar-icon" />
-                                Feedback
-                            </li>
-
-                            <li className="sidebar-list-item">
-                                <SendIcon className="sidebar-icon" />
-                                Messages
-                            </li>
+                            
                         </ul>
                     </div>
 
                     <div className="sidebar-menu">
                         <h3 className="sidebar-title">Staff</h3>
                         <ul className="sidebar-list">
+                            <Link to="/comingsoon1">
                             <li className="sidebar-list-item active">
                                 <ManageAccountsIcon className="sidebar-icon" />
                                 Manage
                             </li>
+                            </Link>
+
+                            <Link to="/comingsoon2">
                             <li className="sidebar-list-item">
                                 <TimelineIcon className="sidebar-icon" />
                                 Analytics
                             </li>
+                            </Link>
 
+                            <Link to="/comingsoon1">
                             <li className="sidebar-list-item">
                                 <AnalyticsIcon className="sidebar-icon" />
                                 Reports
                             </li>
+                            </Link>
                         </ul>
                     </div>
                 </div>

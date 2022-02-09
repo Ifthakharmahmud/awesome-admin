@@ -11,6 +11,10 @@ import UserList from "./pages/userList/UserList";
 import User from "./pages/User/User";
 import NewUser from "./pages/newPage/NewUser";
 import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/Product/Product";
+import NewProduct from "./pages/NewProduct/NewProduct";
+import ComingSoon1 from "./pages/ComingSoon/ComingSoon1";
+import ComingSoon2 from "./pages/ComingSoon/ComingSoon2";
 
 function App() {
   return (
@@ -24,8 +28,10 @@ function App() {
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/products" element={<ProductList />} />
-          <Route path="/product/:productId" element={<ProductList />} />
-          <Route path="/newproduct" element={<ProductList />} />
+          <Route path="/product/:productId" element={<Product />} />
+          <Route path="/newproduct" element={<NewProduct />} />
+          <Route path="/comingsoon1" element={<ComingSoon1 />} />
+          <Route path="/comingsoon2" element={<ComingSoon2 />} />
         </Routes>
         
       </div>

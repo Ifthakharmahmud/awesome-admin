@@ -59,6 +59,30 @@ export const userData = [
 
 
 
+  export const productData = [
+    {
+      name: 'Jan',
+      "Sales": 2000,
+      
+    },
+    { 
+      name: 'Feb',
+      "Sales": 3000,
+      
+    },
+    {
+      name: 'Mar',
+      "Sales": 2200,
+      
+    },
+    {
+      name: 'Apr',
+      "Sales": 1500,
+      
+    }
+  ];
+
+
  export const userRows = [
     { id: 1, username: 'Jon Snow', avatar: "./img/user2.jpg", email: "jonshow@gmail.com", status:"active", transection:"$120" },
     { id: 2, username: 'Jaxson', avatar: "./img/user2.jpg", email: "jaxson@gmail.com", status:"active", transection:"$120" },
