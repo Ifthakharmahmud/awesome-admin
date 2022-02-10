@@ -2,6 +2,7 @@
 <p> Admin Dashboard </p>
 
 ============================
+<a href="https://awesome-admin87.netlify.app/"> Live Demo </a>
 <h3> Features </h3>
 <ul>
   <li> User Analytics </li>
